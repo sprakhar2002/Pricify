@@ -2,6 +2,12 @@ body{
     font-family: 'Nunito';
 }
 
+h1{
+    font-size: 30px;
+    padding: 10px 20px;
+    color: #03dac5;
+    text-align: center;
+}
 h2{
     font-size: 18px;
     padding: 10px 20px;

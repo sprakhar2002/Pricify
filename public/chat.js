@@ -27,6 +27,6 @@ btn1.addEventListener('click', function(){
 
 // Listen for events
 socket.on('chat', function(data){
-    output.innerHTML += '<p><strong>' + data.name + ': </strong>' + data.pri + '</p>';
+    output.innerHTML += '<p><strong>' + data.name + ': </strong>' + data.pri +'</p>';
     chat.scrollTop = chat.scrollHeight;
 });
