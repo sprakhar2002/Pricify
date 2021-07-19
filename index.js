@@ -32,11 +32,11 @@ let price = new ws("wss://ws.finnhub.io?token=c3oaikiad3ia07ueoia0");
 price.onopen = function(e) {
   console.log("[open] Connection established");
   console.log("Sending to server");
-    price.send('{"type":"subscribe","symbol":"UPOW"}')
-    price.send('{"type":"subscribe","symbol":"FTOC"}')
+    price.send('{"type":"subscribe","symbol":"AAPL"}')
+    price.send('{"type":"subscribe","symbol":"AMZN"}')
     price.send('{"type":"subscribe","symbol":"MSFT"}')
-    price.send('{"type":"subscribe","symbol":"BYND"}')
-    price.send('{"type":"subscribe","symbol":"BINANCE:BTCUSDT"}');
+    price.send('{"type":"subscribe","symbol":"IC MARKETS:1"}')
+   price.send('{"type":"subscribe","symbol":"BINANCE:BTCUSDT"}');
 
 };
 
