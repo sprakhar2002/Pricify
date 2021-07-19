@@ -18,11 +18,15 @@ make sure you have 'express' 'socket.io' 'nodemon' 'websockts' installed in your
 
 After running the server
 
+
 Open
 http://localhost:4000
 on your browser 
 
 <br>
+
+*Make Sure the Market is open or you will not recieve live prices of some of the stocks*
+
 <br>
 
 ![Alt text](images/opening.png?raw=true "Title")
