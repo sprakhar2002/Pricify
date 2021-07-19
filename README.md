@@ -3,7 +3,6 @@
 
 This web app will display the real time stock prices of the stocks 
 
-< Due to the weekend holiday of the market it was impossible to test on more stocks as the api was not sending any data > 
 
 
 You can add more stocks using the server side index.js
