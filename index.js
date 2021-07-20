@@ -1,5 +1,6 @@
 var express = require('express');
 var socket = require('socket.io');
+require('dotenv').config()
 
 // App setup
 var app = express();
@@ -27,7 +28,7 @@ io.on('connection', (socket) => {
         console.log(data);
         var ws=require('ws')
 
-let price = new ws("wss://ws.finnhub.io?token=c3oaikiad3ia07ueoia0");
+let price = new ws("wss://ws.finnhub.io?token="+process.env.API_KEY);
 
 price.onopen = function(e) {
   console.log("[open] Connection established");
