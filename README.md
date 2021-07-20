@@ -14,7 +14,11 @@ To start the server use nodemon
 nodemon index
 ```
 
-make sure you have 'express' 'socket.io' 'nodemon' 'websockts' installed in your system 
+make sure you have 'express' 'socket.io' 'nodemon' 'websockts' 'dotenv' installed in your system 
+
+Get an API Key from https://finnhub.io/ and put your API_KEY in .env file *See the env_sample file*
+
+
 
 After running the server
 
